@@ -375,3 +375,29 @@ p{
     color: rgb(13, 19, 33);
     margin-bottom: -100px;
 }
+
+
+
+/* footer */
+
+.footer{
+    height: 100px;
+    max-width: 1550px;
+    margin-top: 100px;
+    background: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+
+.footer div a{
+    margin-left: 20px;
+}
