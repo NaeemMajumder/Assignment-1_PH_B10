@@ -188,6 +188,7 @@ p{
     color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    cursor: pointer;
 }
 
 
