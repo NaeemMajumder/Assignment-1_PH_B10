@@ -1,0 +1,377 @@
+/*================
+    COMMON CSS 
+=================*/
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*========================
+    Multiple Use CSS 
+=========================*/
+
+.margin{
+    margin: 80px 150px 0 150px;
+}
+
+.btn{
+    padding: 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(13, 19, 33);
+}
+
+.width{
+    max-width: 1250px;
+}
+
+/*==============
+    Main CSS 
+===============*/
+
+
+
+/*====== Header =====*/
+
+/* Navigation bar */
+
+.nav-bar{
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar h1{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.nav-bar button{
+    opacity: 0.8;
+}
+
+.nav-bar button a{
+    color: rgb(13, 19, 33);
+}
+
+
+/* Hero Area */
+
+.hero-area{
+    max-width: 1550px;
+    height: 650px;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-area h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+
+.hero-area p{
+    text-align: center;
+}
+
+.hero-area button{
+    background-color: rgb(13, 19, 33);
+}
+
+.hero-area button a{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*====== Main =====*/
+
+/* Why Web Development */
+
+
+.why-web{
+    height: 1390px;
+    background: rgba(13, 19, 33, 0.02);
+    border: none;
+    border-radius: 16px;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-web>p{
+    text-align: center;
+    padding: 0 48px;
+}
+
+.why-web>div{
+    width: 100%;
+    height: 1070px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.why-web>div>div{
+    width: 100%;
+    height: 335px;
+    padding: 48px 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-web>div>div>div{
+    width: 60%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.why-web>div>div>div h3{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.why-web>div>div>div button{
+    display: inline-block !important;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+
+
+/* My Inspiration */
+
+.inspiration{
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inspiration p{
+    padding: 0 150px;
+    text-align: center;
+}
+
+.inspiration>div{
+    width: 100%;
+    height: 610px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration>div>iframe{
+    width: 95%;
+    height: 90%;
+    border-radius: 16px;
+}
+
+
+
+/* My Current Target */
+
+.current-target{
+    height: 460px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.current-target>p{
+    padding: 0 150px;
+    text-align: center;
+}
+
+.current-target>div{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.current-target>div>div{
+    width: 360px;
+    height: 100%;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.current-target>div>div img{
+    width: 56px;
+    height: 56px;
+}
+
+.current-target>div>div h3{
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.common-a{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+.current-target>div>div:nth-child(1){
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.current-target>div>div:nth-child(2){
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.current-target>div>div:nth-child(3){
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+
+/* My Next Target */
+
+.next-target{
+    height: 870px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-target>p{
+    padding: 0 150px;
+    text-align: center;
+}
+
+.next-target>div{
+    height: 710px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.next-target>div>div{
+    height: 220px;
+    width: 100%;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 0.10fr 1fr;
+    column-gap: 20px;
+}
+
+.next-target>div>div img{
+    justify-self: center;
+    align-self: center;
+}
+
+.next-target>div>div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* Contact */
+
+.contact{
+    height: 315px;
+    padding: 64px 48px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../assets/handshake.jpg") ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.contact h2{
+    font-weight: 700px;
+    color: white;
+}
+
+.contact p{
+    color: white;
+}
+
+.contact div input{
+    width: 550px;
+    height: 60px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact div .submit a{
+    color: rgb(13, 19, 33);
+    margin-bottom: -100px;
+}
